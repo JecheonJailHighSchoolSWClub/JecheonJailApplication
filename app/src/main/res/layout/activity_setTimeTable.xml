@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <Button
+            android:text="View"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:id="view"
+            android:layout_margin="10dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="4dp" app:layout_constraintHorizontal_bias="0.498"
+            android:background="@color/white"
+            android:textColor="@color/black" app:backgroundTint="@color/white" tools:ignore="HardcodedText"/>
+
+    <TableLayout
+            android:stretchColumns="*"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tableLayout" android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="28dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginStart="28dp"
+            android:layout_marginEnd="28dp" android:layout_marginRight="28dp">
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:text="교시"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_Class"
+                    android:layout_gravity="center_horizontal" tools:ignore="HardcodedText"/>
+
+            <TextView
+                    android:text="월"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_Mon"
+                    android:layout_gravity="center_horizontal" tools:ignore="HardcodedText"/>
+
+            <TextView
+                    android:text="화"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_Tue"
+                    android:layout_gravity="center_horizontal" tools:ignore="HardcodedText"/>
+
+            <TextView
+                    android:text="수"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_Wed"
+                    android:layout_gravity="center_horizontal" tools:ignore="HardcodedText"/>
+
+            <TextView
+                    android:text="목"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_Thu"
+                    android:layout_gravity="center_horizontal" tools:ignore="HardcodedText"/>
+
+            <TextView
+                    android:text="금"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_Fri"
+                    android:layout_gravity="center_horizontal" tools:ignore="HardcodedText"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:text="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_Class1" tools:ignore="HardcodedText"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_1" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_2" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_3" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_4" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_5" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+        </TableRow>
+
+        <TableRow
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:text="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_Class2" tools:ignore="HardcodedText"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_6" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_7" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_8" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_9" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_10" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+        </TableRow>
+
+        <TableRow
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:text="3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_Class3" tools:ignore="HardcodedText"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_11" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_12" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_13" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_14" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_15" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+        </TableRow>
+
+        <TableRow
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:text="4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_Class4" tools:ignore="HardcodedText"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_16" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_17" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_18" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_19" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_20" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+        </TableRow>
+
+        <TableRow
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:text="5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_Class5" tools:ignore="HardcodedText"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_21" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_22" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_23" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_24" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_25" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+        </TableRow>
+
+        <TableRow
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:text="6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_Class6" tools:ignore="HardcodedText"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_26" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_27" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_28" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_29" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_30" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+        </TableRow>
+
+        <TableRow
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:text="7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_Class7" tools:ignore="HardcodedText"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_31" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_32" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_33" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_34" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+            <EditText
+                    android:hint="@string/input_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_35" android:textSize="14sp"
+                    android:importantForAutofill="no"
+                    android:inputType="text"/>
+
+        </TableRow>
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

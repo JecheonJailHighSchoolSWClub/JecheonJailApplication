@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <Button
+            android:id="@+id/button_setTT"
+            android:text="setting"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_margin="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="4dp"
+            app:layout_constraintHorizontal_bias="0.498"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/white"/>
+
+    <TableLayout
+            android:id="@+id/tableLayout"
+            android:stretchColumns="*"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="28dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="28dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="28dp">
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:id="@+id/textView_Class"
+                    android:text="교시"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal" tools:ignore="HardcodedText"/>
+
+            <TextView
+                    android:id="@+id/textView_Mon"
+                    android:text="월"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal" tools:ignore="HardcodedText"/>
+
+            <TextView
+                    android:id="@+id/textView_Tue"
+                    android:text="화"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal" tools:ignore="HardcodedText"/>
+
+            <TextView
+                    android:id="@+id/textView_Wed"
+                    android:text="수"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal" tools:ignore="HardcodedText"/>
+
+            <TextView
+                    android:id="@+id/textView_Thu"
+                    android:text="목"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal" tools:ignore="HardcodedText"/>
+
+            <TextView
+                    android:id="@+id/textView_Fri"
+                    android:text="금"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal" tools:ignore="HardcodedText"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:id="@+id/textView_Class1"
+                    android:text="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" tools:ignore="HardcodedText"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_1"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_2"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_3"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_4"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_5"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:id="@+id/textView_Class2"
+                    android:text="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"tools:ignore="HardcodedText"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_6"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_7"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_8"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_9"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_10"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:id="@+id/textView_Class3"
+                    android:text="3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" tools:ignore="HardcodedText"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_11"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_12"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_13"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_14"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_15"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:id="@+id/textView_Class4"
+                    android:text="4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" tools:ignore="HardcodedText"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_16"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_17"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_18"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_19"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_20"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:id="@+id/textView_Class5"
+                    android:text="5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" tools:ignore="HardcodedText"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_21"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_22"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_23"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_24"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_25"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:id="@+id/textView_Class6"
+                    android:text="6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" tools:ignore="HardcodedText"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_26"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_27"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_28"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_29"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_30"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:id="@+id/textView_Class7"
+                    android:text="7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" tools:ignore="HardcodedText"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_31"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_32"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_33"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_34"/>
+
+            <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_35"/>
+        </TableRow>
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
