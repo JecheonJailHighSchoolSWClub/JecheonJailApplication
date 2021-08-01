@@ -1,5 +1,4 @@
 // 박지연  시간표
-// 기존에 for문 + arraylist로 작성하던 코드의 오류가 도저히 고쳐지지 않아 임시방편으로 나열
 
 package com.jecheonjailhighschoolswclub.jecheonjailapplication.time_table;
 
@@ -27,7 +26,7 @@ public class SetTimeTable extends AppCompatActivity {
             int textViewID = getResources().getIdentifier("textView_"+i+1, "id", getPackageName());
             TextView txt = findViewById(textViewID);
 
-            if(txtStrInput.isEmpty()){
+            if(txtStrInput.isEmpty()){ // 현재 이 부분 오류가 있음
                 txt.setText(txtSave.get(i));
             }
             else{
