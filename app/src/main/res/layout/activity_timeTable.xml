@@ -135,7 +135,7 @@
                     android:id="@+id/textView_Class2"
                     android:text="2"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"tools:ignore="HardcodedText"/>
+                    android:layout_height="wrap_content" tools:ignore="HardcodedText"/>
 
             <TextView
                     android:text=""
